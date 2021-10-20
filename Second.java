@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.Math.pow;
 
 public class Second {
-    public static void main(String[] args)  {;
+    public static void main(String[] args)  {
         int n = 0;
         Scanner in = new Scanner(System.in);
         System.out.print("Hi, enter positive integer variable \n");
@@ -29,16 +29,16 @@ public class Second {
         System.out.print("\nTask 1 \n");
         for(int i = 0; i<n2.length(); i++)
             if(n2.charAt(i)=='3'){
-                System.out.print("3 is included");
+                System.out.print("3 is included in "+n2);
                 x = true;
                 break;}
         if(!x)
-            System.out.print("3 isn`t included in "+n1);
+            System.out.print("3 isn`t included in "+ n1);
 
         /* Task 2 */
         System.out.print("\n\nTask 2 \n");
         int k = n;
-        while(k % 10 > 0)
+        while(k > 0)
         {
             int x1 = k % 10;
             k = (k - x1) / 10;
