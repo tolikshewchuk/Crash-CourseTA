@@ -2,8 +2,6 @@ package com.company;
 
 import java.util.Scanner;
 
-import static java.lang.Math.pow;
-
 public class Second {
     public static void main(String[] args)  {
         int n = 0;
